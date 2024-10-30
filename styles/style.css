@@ -87,7 +87,7 @@
     display: block;
 }
 
-.aligned-text_first {
+.aligned-text_left {
     margin-bottom: 20px;
     line-height: 115%;
 }
@@ -243,19 +243,8 @@
     padding: 73px 24px 90px;
 }
 
-.item1 {
-    grid-area: logo-about;
-}
-
-.item2 {
-    grid-area: header-about;
-}
-
-.item3 {
-    grid-area: text-about;
-}
-
 .about__column-logo {
+    grid-area: logo-about;
     justify-items: center;
     padding-top: 35px;
 }
@@ -275,6 +264,7 @@
 }
 
 .about__column-title {
+    grid-area: header-about;
     padding-top: 136px;
     padding-bottom: 100px;
 }
@@ -287,6 +277,7 @@
 }
 
 .about__text {
+    grid-area: text-about;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
